@@ -89,6 +89,12 @@ class ParcelsAppCoordinator(DataUpdateCoordinator):
                 response.raise_for_status()
                 data = json.loads(response_text)
 
+                _LOGGER.debug(
+                    "ParcelsApp API response for %s:\n%s", 
+                    tracking_id,
+                    json.dumps(data, indent=2, ensure_ascii=False)
+                )
+
                 existing_package_data = self.tracked_packages.get(tracking_id, {})
                 if "uuid" in data:
                     # New tracking request
