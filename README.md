@@ -65,7 +65,7 @@ The `track_package` service creates a sensor for each tracked package with the f
 
 ## Installation
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=storm1er&repository=ha_integration_parcelsapp&category=Integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=marijnvandevoorde&repository=ha_integration_parcelsapp&category=Integration)
 
 1. Add this GitHub repository to HACS as a custom repository, or click the badge above.
 2. Install the "Parcels App" integration via HACS.
